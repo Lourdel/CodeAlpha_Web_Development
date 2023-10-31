@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .label-data{
+        @apply text-base pr-2 mb-2 mt-1
+    }
+    .input-data{
+        @apply rounded-md px-1 w-4/5 bg-slate-100 max-w-xl
+    }
+    .btn-primary{
+        @apply py-2 px-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 w-28
+    }
+    .headers-list {
+        @apply text-lg font-semibold underline border-x-2 text-slate-700 underline-offset-2 decoration-double
+    }
+    .list-content{
+        @apply list-inside pl-4 text-slate-900
+    }
+}
