@@ -20,7 +20,7 @@ This repo contains a simple Todo List web app built using HTML, Tailwind CSS and
 - Local Storage: To save tasks for persistent data across browser sessions.
 
 ## App Apearance
-![Todo list] (./todo-list.png)
+![Todo list](./todo-list.png)
 
 ## Author
 - Lourdel Kigudde
