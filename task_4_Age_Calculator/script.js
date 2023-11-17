@@ -64,10 +64,10 @@ function leapChecker(year){
     }
 }
 
-const bd = document.getElementById(birthdate);
+const bd = document.getElementById("birthdate");
 const calculateButton = document.querySelector("button");
 
-bd.addEventListener("keyup", (e) => {
+bd.addEventListener("keyup", function(e) {
     if (e.key === "Enter") {
         e.preventDefault();
         calculateAge();
