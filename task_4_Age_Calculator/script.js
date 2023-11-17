@@ -63,3 +63,14 @@ function leapChecker(year){
         months[1] = 28;
     }
 }
+
+const bd = document.getElementById(birthdate);
+const calculateButton = document.querySelector("button");
+
+bd.addEventListener("keyup", (e) => {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        calculateAge();
+    }
+});
+calculateButton.addEventListener("click", calculateAge);
