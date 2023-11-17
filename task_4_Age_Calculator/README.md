@@ -5,7 +5,7 @@ This is a simple web app implemented using the following technologies;
  - `CSS`
  - `JAVASCRIPT`
 
-## Code screenshots
+## App screenshots
 
 ![JavaScript Code sample](./script.png)
 
